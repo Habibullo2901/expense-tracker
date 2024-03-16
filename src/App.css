@@ -1,0 +1,145 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+
+/* HOME */
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.home  div {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 200;
+    color: rgb(62, 62, 62);
+    letter-spacing: 3px;
+}
+
+.bank_card {
+    max-width: 600px;
+    border: 3px solid rgb(118, 118, 118);
+    border-radius: 20px;
+    gap: 20px;
+    padding: 10px;
+    margin: auto;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    background-color: floralwhite;
+}
+
+.bank_card > h4 {
+    font-size: 30px;
+    font-weight: 200;
+    color: rgb(62, 62, 62);
+    letter-spacing: 4px;
+}
+
+.bank_card > h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(30, 30, 30);
+    letter-spacing: 1px;
+}
+
+.card_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_info > p {
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(62, 62, 62);
+}
+
+.recent {
+    margin: 5px;
+    font-size: 25px;
+    font-weight: 200;
+    color: rgb(62, 62, 62);
+    letter-spacing: 3px;
+}
+
+/*  CARD  */
+
+
+.card {
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    gap: 10px;
+    flex-direction: column;
+    background-color: floralwhite;
+}
+
+/*  HISTORY */
+
+.history {
+    margin-bottom: 80px;
+}
+
+/* ADD EXPENSE */
+
+.add_expense {
+    max-width: 500px;
+    background-color: floralwhite;
+    margin: auto;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    gap: 30px;
+}
+
+.form > input , select , .form > button {
+    border: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 400px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.form > input:hover , select:hover , .form > button:hover {
+    border: none;
+    background-color: rgba(255, 248, 146, 0.503);
+    padding: 10px;
+    border-radius: 5px;
+}
